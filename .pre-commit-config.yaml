@@ -33,7 +33,3 @@
     sha: 07d9ed1dea81d8c0abc783a8f3469ca01801004b
     hooks:
     -   id: robotframework-tidy-wrapper
--   repo: git://github.com/guykisel/prospector-mirror
-    sha: 00fbd80101566b1b9c873c71f2ab7b95b8bd0a7d
-    hooks:
-    -   id: prospector
