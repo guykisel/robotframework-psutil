@@ -15,7 +15,7 @@ Robot Framework keyword library wrapper for
 
 This module allows easy use of psutil's system and process utilities.
 
-Any docstrings Faker provides are passed through to Robot Framework, so
+Any docstrings psutil provides are passed through to Robot Framework, so
 they're available in RIDE and in keyword documentation generated via
 libdoc.
 
