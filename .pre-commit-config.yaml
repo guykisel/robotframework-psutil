@@ -1,5 +1,6 @@
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: 516cc9fa72ad09699f2c03ffbd0aa7f60d75b59a
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 516cc9fa72ad09699f2c03ffbd0aa7f60d75b59a
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -25,11 +26,11 @@
         args:
         - --max-line-length=100
         - --max-complexity=10
--   repo: git://github.com/asottile/reorder_python_imports
-    sha: 3d86483455ab5bd06cc1069fdd5ac57be5463f10
+-   repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.14.0
     hooks:
     -   id: reorder-python-imports
--   repo: git://github.com/guykisel/pre-commit-robotframework-tidy
-    sha: 07d9ed1dea81d8c0abc783a8f3469ca01801004b
+-   repo: https://github.com/guykisel/pre-commit-robotframework-tidy
+    rev: 2a5f51d0d7170171cad4ad6c40177de05bbd25cb
     hooks:
     -   id: robotframework-tidy-wrapper
